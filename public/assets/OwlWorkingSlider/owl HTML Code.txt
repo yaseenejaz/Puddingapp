@@ -1,0 +1,19 @@
+   <div class="wrapper">
+      <div id="owl-example" class="owl-carousel">
+        <div>Your Content</div>
+        <div>Your Content</div>
+        <div>Your Content</div>
+        <div>Your Content</div>
+        <div>Your Content</div>
+        <div>Your Content</div>
+        <div>Your Content</div>
+        ...
+      </div>
+      <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"
+      ></script>
+      <script src="Owl Working Slider/owl.carousel.js"></script>
+      <script src="Owl Working Slider/owl.autoplay.js"></script>
+    </div>

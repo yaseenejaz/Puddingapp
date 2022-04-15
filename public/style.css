@@ -1,0 +1,793 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/font/SegoeUI-Italic.woff2') format('woff2'),
+        url('assets/font/SegoeUI-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/font/SegoeUI.woff2') format('woff2'),
+        url('assets/font/SegoeUI.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/font/SegoeUI-Bold.woff2') format('woff2'),
+        url('assets/font/SegoeUI-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/font/SegoeUI-Light.woff2') format('woff2'),
+        url('assets/font/SegoeUI-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/font/SegoeUIBlack-Italic.woff2') format('woff2'),
+        url('assets/font/SegoeUIBlack-Italic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/font/SegoeUI-BoldItalic.woff2') format('woff2'),
+        url('assets/font/SegoeUI-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI Semilight';
+    src: url('assets/font/SegoeUI-Semilight.woff2') format('woff2'),
+        url('assets/font/SegoeUI-Semilight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/font/SegoeUIBlack.woff2') format('woff2'),
+        url('assets/font/SegoeUIBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/font/SegoeUI-LightItalic.woff2') format('woff2'),
+        url('assets/font/SegoeUI-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/font/SegoeUI-SemiboldItalic.woff2') format('woff2'),
+        url('assets/font/SegoeUI-SemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/font/SegoeUI-Semibold.woff2') format('woff2'),
+        url('assets/font/SegoeUI-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI Semilight';
+    src: url('assets/font/SegoeUI-SemilightItalic.woff2') format('woff2'),
+        url('assets/font/SegoeUI-SemilightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+.site-logo {
+    width: 100%;
+}
+
+.site-logo .logo {
+    width: 100%;
+    max-width: 270px;
+}
+
+.site-logo .logo img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.site-menu {
+    width: 100%;
+}
+.site-menu ul li a img {
+    width: 60%;
+    transition: all 0.1s ease;
+}
+.site-menu ul li a img:hover {
+    filter: invert(100%) sepia(20%) saturate(3136%) hue-rotate(309deg) brightness(85%) contrast(93%);
+}
+.site-menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.site-menu ul li {
+    list-style: none;
+    float: left;
+    padding: 0 10px;
+}
+
+
+.site-menu ul li a {
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+header {
+    width: 100%;
+    padding: 18px 0;
+    background: #fff;
+    box-shadow: 0 3px 6px #00000036;
+}
+.banner {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:9% 0 17% 0;
+}
+.slidertext h1 {
+    font-family: Vivaldi;
+    color: #fff;
+    font-size: 141px;
+    font-style: initial;
+    font-weight: 400;
+    line-height: 151px;
+}
+.slideimg {
+    width: 500px;
+    margin: auto;
+}
+.slidertext p {
+    font-size: 20px;
+    color: #fff;
+    font-family: 'SEGOE UI';
+    line-height: 21px;
+}
+.slidertext a {
+    font-family:'SEGOE UI';
+    padding: 16px 86px;
+    background: #59341C;
+    color: #fff;
+    border-radius: 28px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 27px;
+    margin-top: 14px;
+    float: left;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.slidertext a:hover {
+    background: #f2f2ef;
+    color: #59341C;
+}
+.search {
+    position: relative;
+}
+.formsearch {
+    background: #59331A;
+    padding: 33px 69px;
+    flex-direction: column;
+    box-shadow: 0 3px 10px #0000003d;
+    border-radius: 26px;
+    margin: -10% 0 0 0;
+    position: relative;
+    z-index: 99;
+}
+.formsearch h2 {
+    font-family: 'Segoe UI';
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 25px;
+    color: #fff;
+}
+.formsearch form {
+    width: 100%;
+    position: relative;
+    margin: 40px 0;
+}
+.formsearch form input[type="text"] {
+    width: 100%;
+    position: relative;
+    padding: 21px 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    line-height: 27px;
+    border-radius: 36px;
+    border: none;
+    outline: none;
+}
+.formsearch form input[type="text"]::placeholder{
+    color: #000;
+}
+.formsearch form button {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    margin: auto;
+    padding: 12px 22px;
+    border-radius: 27px;
+    background: #000;
+    border: none;
+    outline: none;
+}
+.search:before {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 347px;
+    background-image: url(assets/images/puddi.png);
+    LEFT: 0;
+    bottom: 0;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.search:after {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 347px;
+    background-image: url(assets/images/puddi.png);
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    transform: rotatey(175deg);
+    z-index:-1;
+}
+.service .col {
+    width: 100%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.service .iconbox:hover .icon {
+    background: #ffab4f;
+}
+
+.service .iconbox .icon {
+    width: 150px;
+    background: #59331A;
+    border-radius: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    position: relative;
+    transition: all 0.5s ease;
+    z-index: 999;
+    margin: auto;
+}
+.service .iconbox:hover .icon img {
+    filter: invert(32%) sepia(62%) saturate(502%) hue-rotate(
+341deg
+) brightness(51%) contrast(99%);
+}
+.service .iconbox:hover .icon:before {
+    border-color: #844a23;
+}
+.service .iconbox .icon:before {
+    content: '';
+    position: absolute;
+    width: 106%;
+    height: 159px;
+    border: dashed 5px #FFA840;
+    border-radius: 50%;
+}
+.service {
+    width: 100%;
+    padding: 6% 0 6% 0;
+}
+.service .iconbox h2 {
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    line-height: 21px;
+    padding: 20px 2px;
+}
+.product h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Segoe UI';
+    z-index: 9;
+    position: relative;
+}
+.product:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    background-image: url(assets/images/shap-min.png);
+    top: -8px;
+    z-index: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product {
+    padding: 5% 0;
+    background: #63422B;
+    position: relative;
+}
+
+.product-item {
+    width: 100%;
+    transition: all 0.5s ease;
+}
+.product-item .product-img {
+    width: 100%;
+    max-width: 220px;
+    margin: 0 auto;
+    margin-bottom: -50px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-item .product-img img {
+    width: 100%;
+    max-width: 170px;
+}
+
+.product-content {
+    background: #fff;
+    padding: 70px 0px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 27px;
+    height: 220px;
+    transition: all 0.5s ease;
+}
+
+.product-content h2 {
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    line-height: 24px;
+    text-align: center;
+}
+
+.product-content p {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    line-height: 40px;
+}
+.product .row .col-md-3:nth-child(2) .product-item .product-img img {
+    width: 100%;
+    max-width: 158px;
+}
+.product .row .col-md-3:nth-child(3) .product-item .product-img img {
+    width: 100%;
+    max-width: 131px;
+}
+.product .row .col-md-3:nth-child(4) .product-item .product-img img {
+    width: 100%;
+    max-width: 82px;
+}
+.product-item:hover {
+    transform: translateY(-10px);
+}
+
+.product-item:hover .product-content {
+    background: #ffe9ba;
+}
+.favourite h1 {
+    font-size: 42px;
+    font-family: 'Segoe UI';
+    color: #000;
+    line-height: 56px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 0 3% 0;
+}
+.favourite {
+    width: 100%;
+    padding: 3% 0;
+}
+footer {
+    width: 100%;
+    padding: 6% 0 3% 2px;
+}
+.footer-logo {
+    width: 100%;
+    max-width: 260px;
+    padding: 2% 0;
+}
+.footer-content p {
+    font-size: 16px;
+    padding: 0 16%;
+    text-align: center;
+}
+
+.footer-content ul {
+    padding: 0;
+    margin: 0;
+}
+.footer-content ul li {
+    list-style: none;
+    padding: 0 10px;
+}
+.copyright {
+    padding: 15px 0;
+    margin: 0;
+    border-top: 1px solid #000;
+}
+
+.copyright p {
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    margin: 0;
+}
+#owl-example .owl-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 10%;
+    height: 30px;
+    align-items: center;
+}
+#owl-example .owl-nav button {
+    font-size: 80px;
+    color: #fff;
+    outline: none;
+    height: initial !important;
+}
+.footer-content ul li a img {
+    width: 100%;
+    max-width: 30px;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .site-menu ul {
+        align-items: center;
+    }
+    .site-menu ul li {
+        padding: 0;
+    }
+    .site-menu ul li a img {
+        width: 100%;
+        max-width: 26px;
+    }
+    .slidertext.w-100 {
+        padding: 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .slidertext h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .slidertext p {
+        font-size: 14px;
+        padding: 0 35px;
+        text-align: center;
+    }
+    .slidertext a {
+        padding: 10px 50px;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .slideimg {
+        width: 100%;
+        padding: 40px;
+    }
+    .formsearch {
+        padding: 23px 19px;
+        border-radius: 26PX;
+        margin: -27% 0 0 0;
+        TEXT-ALIGN: CENTER;
+    }
+    .formsearch h2 {
+        font-size: 17px;
+        line-height: 25px;
+        padding: 0 10px;
+    }
+    .formsearch form input[type="text"] {
+        padding: 12px 20px;
+        font-size: 17px;
+    }
+    .formsearch form button {
+        right: 4px;
+        top: 3px;
+        padding: 8px 22px;
+    }
+    .service .col {
+        width: 100%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .service .iconbox .icon {
+        width: 130px;
+        height: 130px;
+    }
+    .service .iconbox .icon:before {
+        height: 143px;
+    }
+    .service .iconbox .icon img {
+        width: 100%;
+        max-width: 60px;
+    }
+    .service .iconbox h2 {
+        font-size: 13px;
+    }
+    .service .row {
+        display: flex;
+        justify-content: center;
+    }
+    .search:after{
+        width: 0px;
+    }
+    .search:before{
+        width: 0px;
+    }
+    .service {
+        padding: 15% 0 7% 0;
+    }
+    .product h1 {
+        font-size: 29px;
+        padding: 20px 0;
+    }
+    .product-item {
+        padding: 0 30px;
+        margin-bottom: 30px;
+    }    
+    .product-item .product-img img {
+        max-width: 210px;
+    }
+    .product .row .col-md-3:nth-child(2) .product-item .product-img img {
+        max-width: 200px;
+    }
+    .product .row .col-md-3:nth-child(3) .product-item .product-img img {
+        max-width: 180px;
+    }
+    .product .row .col-md-3:nth-child(4) .product-item .product-img img {
+        max-width: 132px;
+    }
+    .product-content {
+        padding: 90px 0px 20px 0;
+        height: 200px;
+    }
+    .favourite h1 {
+        font-size: 29px;
+    }
+    .favourite h1 {
+        font-size: 29px;
+    }
+    .footer-logo {
+        max-width: 190px;
+    }    
+    .deals {
+        width: 100%;
+        padding: 0 20px;
+        margin-bottom: 40px;
+    }
+    .footer-content p {
+        font-size: 16px;
+        padding: 0px 10%;
+        text-align: center;
+    }
+    .footer-content ul {
+        padding: 20px 0;
+    }
+    .footer-content ul li a img {
+        max-width: 25px;
+    }
+    .copyright p {
+        font-size: 16px;
+    }
+    .copyright {
+        padding: 13px 0;
+    }
+    #owl-example .owl-nav {
+        display: none;
+    }
+    .product .row .col-md-3 {
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media screen and (min-width: 667px) and (max-width: 750px) {
+    .slidertext p {
+        font-size: 14px;
+        padding: 0 0px;
+        text-align:start;
+    }
+    .slideimg {
+        width: 100%;
+        padding: 20px;
+    }
+    .slidertext.w-100 {
+        justify-content: start;
+        align-items: start;
+    }
+    .slidertext a {
+        padding: 5px 49px;
+        font-size: 15px;
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+    .formsearch form {
+        margin: 20px 0;
+    }
+    .product .row .col-md-3 {
+        width: 100%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .product .row .col-md-3:nth-child(2) .product-item .product-img img {
+        max-width: 189px;
+    }
+    .product .row .col-md-3:nth-child(4) .product-item .product-img img {
+        max-width: 112px;
+    }
+    
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .slidertext a {
+        padding: 8px 46px;
+        font-size: 16px;
+        line-height: 27px;
+        margin-top: 2px;
+    }
+    .slidertext h1 {
+        font-size: 70px;
+        line-height: 60PX;
+    }
+    .slidertext p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .slideimg {
+        width: 100%;
+        margin: auto;
+    }
+    #owl-example .owl-nav {
+        display: none;
+    }
+    .formsearch h2 {
+        font-size: 19px;
+    }
+    .formsearch {
+        padding: 20px 50px;
+    }
+    .formsearch form {
+        margin: 20px 0;
+    }
+    .formsearch form button {
+        right: 5px;
+        top: 3px;
+        padding: 7px 15px;
+    }
+    .formsearch form input[type="text"] {
+        padding: 11px 20px;
+    }
+    .service .col {
+        width: 100%;
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+    .service .row {
+        display: flex;
+        justify-content: center;
+    }
+    .search:before{
+        width: 0px;
+    }
+    .search:after{
+        width: 0px;
+    }
+    .product h1 {
+        font-size: 32px;
+    }
+    .product-content {
+        padding: 70px 10px 20px 10px;
+        height: 170px;
+    }
+    .product-content h2 {
+        font-size: 15px;
+    }
+    .product-content p {
+        font-size: 26px;
+    }
+    .footer-logo {
+        max-width: 200px;
+    }
+    .footer-content p {
+        font-size: 15px;
+    }
+    .copyright p {
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .search:before{
+        width: 0px;
+    }
+    .search:after{
+        width: 0px;
+    }
+     .slidertext a {
+        padding: 8px 46px;
+        font-size: 16px;
+        line-height: 27px;
+        margin-top: 2px;
+    }
+    .slidertext h1 {
+        font-size: 70px;
+        line-height: 60PX;
+    }
+    .slidertext p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .slideimg {
+        width: 100%;
+        margin: auto;
+    }
+    #owl-example .owl-nav {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1365px) {}
